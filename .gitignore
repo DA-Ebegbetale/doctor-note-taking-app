@@ -1,0 +1,26 @@
+ Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Logs
+*.log
+logs/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build/cache/temp
+tmp/
+cache/
+*.tmp
+
+# Uploaded/generated runtime files
+public/uploads/*
+!public/uploads/.gitkeep
